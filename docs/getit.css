@@ -29,22 +29,206 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+
+
+
+.container{
+  display: block;
+}
+
+
+.appbar {
+  background-color: #f7d736;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+}
+.logo {
+  max-width: 6%;
+  height: auto;
+  padding: 10px;
+}
+.subtitle {
+  position: relative;
+  bottom: 30px;
+  vertical-align: middle;
+  color: #000000;
+  font-size: 20px;
+}
+
+
+
+.form-card{
+margin: auto;
+margin-top: 25px;
+width: 45%;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+border-radius: 3px;
+padding: 8px;
+}
+.form-card-title{
+font-size: 20px;
+width: 100%;
+border-color: transparent;
+outline: none;
+padding-bottom: 17px;
+}
+.autoresize{
+width: 100%;
+outline: none;
+resize: none;
+border-color: transparent;
+font-family: sans-serif;
+}
+.btn {
+  font-weight: bold;
   position: relative;
   display: block;
   padding: 10px 15px;
-
+  width: 100%;
   overflow: hidden;
-
   border-width: 0;
   outline: none;
   border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
   background-color: #f7d736;
-
   transition: background-color 0.3s;
 }
+
+
+
+.card-container{
+  padding-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.card-title{
+  text-align: left;
+  color:#000000;
+  font-size: 19px;
+  padding: 10px;
+}
+.card-content{
+  /* tag <p> */
+  color:#4c4c4c;
+  padding: 10px;
+}
+
+
+.card{
+  font-family: 'Permanent Marker';
+  width: 14%;
+  height: auto;
+  text-align: center;
+  padding: 8px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  border-radius: 8px;
+
+
+}
+
+
+.card-color-1{
+  background-color:#ead3a7;
+  padding: 10px;
+}
+.card-color-2{
+  background-color:#9de0f5;
+}
+.card-color-3{
+  background-color:#ef89ba;
+}
+.card-color-4{
+  background-color:#fae890;
+}
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+
+.card-rotation-1{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-2{
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-3{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-4{
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-5{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-6{
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-7{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-8{
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-9{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.card-rotation-10{
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.card-rotation-11{
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+
+
+
+/* 
 
 .btn > * {
   position: relative;

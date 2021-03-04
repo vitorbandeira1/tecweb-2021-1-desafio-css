@@ -2,8 +2,7 @@
 
 Grupo:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
+- Vitor Irulegui Bueno Bandeira.
 - Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://toshikurauchi.github.io/tecweb-2021-1-desafio-css/)
 
 ## Desafio CSS
