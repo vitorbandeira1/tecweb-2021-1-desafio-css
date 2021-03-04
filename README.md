@@ -1,9 +1,7 @@
 # Tecnologias Web 2021-1
 
-Grupo:
-
 - Vitor Irulegui Bueno Bandeira.
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://toshikurauchi.github.io/tecweb-2021-1-desafio-css/)
+- Link do GitHub Pages: https://vitorbandeira1.github.io/tecweb-2021-1-desafio-css/
 
 ## Desafio CSS
 
